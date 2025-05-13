@@ -5,16 +5,17 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node 02.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "eslint-plugin-filenames": "^1.3.2"
-  }
+    "eslint-plugin-filenames": "^1.3.2",
+    "nodemon": "^3.1.10"
+  },
+  "description": ""
 }
