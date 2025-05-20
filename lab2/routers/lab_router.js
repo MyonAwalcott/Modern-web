@@ -48,7 +48,12 @@ router.get('/calculate/:x/:y/:operator', (req, res) => {
 });
 
 
-router.get("/", (req, res) => {});
+router.get("/greeting", (req, res) => {
+    const name = req.query.name;
+    const age = req.query.age;
+    const greeting = `Hello ${name}, you are ${age} years old.`;
+    res.send(greeting);
+});
 router.get("/", (req, res) => {});
 
 
